@@ -22,6 +22,7 @@ $(function () {
             $("#logo-img").attr("src", data.logo_img);
             $('#logo-text-1').html(data.logo_text_1);
             $('#logo-text-2').html("." + data.logo_text_2);
+			$('#logo-text-3').html("." + data.logo_text_3);
             $('#logo-title-other').html(data.logo_text_1);
             $('#logo-title-other-small').html("." + data.logo_text_2);
             $('#logo-text-small').html(data.logo_text_1 + "." + data.logo_text_2);
